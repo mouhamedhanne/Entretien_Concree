@@ -1,3 +1,13 @@
+import Herotop from "@/components/Herotop";
+import Navbar from "@/components/Navbar";
+
 export default function Home() {
-  return <main className="">hello world</main>;
+  return (
+    <>
+      <Navbar />
+      <main className="">
+        <Herotop />
+      </main>
+    </>
+  );
 }
