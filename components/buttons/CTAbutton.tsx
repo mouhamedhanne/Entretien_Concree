@@ -17,15 +17,16 @@ export const Button: React.FC<ButtonProps> = ({
 
   const typeClasses: Record<string, string> = {
     primary: "bg-primary_button hover:bg-primary_button/90",
-    secondary: "bg-gray-200 hover:bg-gray-300 text-gray-800",
+    secondary:
+      "text-secondary_button text-[8px] bg-blue-200 font-bold px-2 py-1 rounded-[4px]",
     outline:
       "bg-transparent border-2 border-primary_button text-primary_button hover:bg-blue-500 hover:text-white",
   };
 
   const sizeClasses: Record<string, string> = {
-    small: "px-3 py-1 text-sm",
+    small: "px-3 py-1",
     medium: "px-4 py-2 text-base",
-    large: "px-4 py-2 text-lg",
+    large: "px-4 py-2 text-base",
   };
 
   const classes = `${baseClasses} ${typeClasses[type]} ${sizeClasses[size]} ${className}`;
