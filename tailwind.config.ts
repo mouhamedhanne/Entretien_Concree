@@ -12,6 +12,7 @@ const config: Config = {
         secondary_color: "#E7EBEF",
         text_black: "#000000",
         primary_button: "#0958A5",
+        secondary_button: "#0958A5",
         small_button: "#CEDEED",
       },
     },

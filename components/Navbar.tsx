@@ -30,7 +30,7 @@ export default function Navbar() {
                       pathname === "/" ? "font-bold text-text_black" : ""
                     }`}
                   >
-                    Acceuil
+                    Accueil
                   </Link>
                   <Link
                     href="/opportunity"
