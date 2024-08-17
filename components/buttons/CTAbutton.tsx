@@ -20,7 +20,7 @@ export const Button: React.FC<ButtonProps> = ({
     secondary:
       "text-secondary_button text-[8px] bg-blue-200 font-bold px-2 py-1 rounded-[4px]",
     outline:
-      "bg-transparent border-2 border-primary_button text-primary_button hover:bg-blue-500 hover:text-white",
+      "bg-transparent border-2 border-primary_button text-primary_button",
   };
 
   const sizeClasses: Record<string, string> = {

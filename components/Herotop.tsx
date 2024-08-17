@@ -122,7 +122,7 @@ export default function Herotop() {
                 <Button
                   type="outline"
                   size="small"
-                  className="mt-4 rounded-[2rem] text-[14px] "
+                  className="mt-4 rounded-[2rem] text-[14px] hover:bg-primary_button hover:text-white"
                 >
                   Rejoindre maintenant
                 </Button>
