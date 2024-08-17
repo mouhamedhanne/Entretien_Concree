@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-primary_button">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-white pt-4 pb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-white pt-4 pb-8">
           <div>
             <Image
               src="/assets/wekomkom-footer.svg"
@@ -24,8 +24,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Colonne 2: Menu */}
-          <div className="ml-[5rem]">
+          <div className="ml-[4rem]">
             <h3 className="text-[16px] font-semibold mb-4">Menu</h3>
             <ul className="space-y-2">
               <li>
@@ -47,7 +46,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Colonne 3: Liens Utiles */}
           <div>
             <h3 className="text-[16px] font-semibold mb-4">Liens Utiles</h3>
             <ul className="space-y-2 text-[14px]">
@@ -74,7 +72,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Colonne 4: Réseaux Sociaux et Téléchargement Mobile */}
           <div>
             <h3 className="text-[16px] mb-4">
               Wekomkom est disponible sur mobile
@@ -93,11 +90,35 @@ export default function Footer() {
                 height={40}
               />
             </div>
-            <h3 className="text-lg font-semibold mb-2">Télécharger l'app</h3>
-            <div className="flex space-x-2"></div>
+            <h5 className="text-[16px] mb-4">Suivez-nous sur nos réseaux</h5>
+            <div className="flex space-x-2">
+              <Image
+                src="/assets/linkedin.svg"
+                alt="icon"
+                width={20}
+                height={10}
+              />
+              <Image
+                src="/assets/facebook.svg"
+                alt="icon"
+                width={20}
+                height={10}
+              />
+              <Image src="/assets/x.svg" alt="icon" width={20} height={10} />
+              <Image
+                src="/assets/instagram.svg"
+                alt="icon"
+                width={20}
+                height={10}
+              />
+            </div>
           </div>
         </div>
       </Container>
+      <div className="border-b border-[#B5CDE4] w-full mt-[2px]"></div>
+      <div className="text-white text-center text-[15px] py-5">
+        Created by Concree © 2024 Wekomkom. Tous droits réservés
+      </div>
     </footer>
   );
 }

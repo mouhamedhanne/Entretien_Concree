@@ -47,7 +47,7 @@ export default function Herotop() {
           <div className="absolute left-0 -top-[11rem] w-1/5 space-y-4 ">
             <div className="bg-gray-200 h-60 w-[200px] ml-auto px-2 py-2 rounded-[12px] shadow-md">
               <div className="bg-white rounded-[8px]">
-                <div className="relative w-full h-24 mb-3">
+                <div className="relative w-full h-[5.3rem] mb-3">
                   <Image
                     src="/card-hero/hero-1.svg"
                     alt="Description de l'image"
@@ -146,20 +146,19 @@ export default function Herotop() {
                   <Image
                     src="/card-hero/hero-4.svg"
                     alt="Description de l'image"
-                    width={100}
+                    width={190}
                     height={10}
                     objectFit="cover"
-                    className="w-full"
                   />
                 </div>
-                <div className="px-2 py-2">
+                <div className="px-2 py-1">
                   <span className="text-[10px] rounded-md bg-gray-200 p-1 mt-4">
                     Bon d’accompagnement
                   </span>
                   <p className="font-bold text-[10px] mt-2 text-[#0958A5] leading-none ">
                     Trouvez l'Opportunité qui Boostera Votre Entreprise
                   </p>
-                  <p className="text-[10px]">
+                  <p className="text-[11px]">
                     Découvrez Comm'une Opportunité, la plateforme de mise en
                     relation ..
                   </p>
