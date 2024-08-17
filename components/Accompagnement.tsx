@@ -205,14 +205,21 @@ export default function Accompagnement() {
                 <span className="font-extrabold text-3xl text-primary_button">
                   +1532
                 </span>
-
                 <p className="text-xs mt-1">Entreprises enregistrées</p>
               </div>
               <div className="bg-[#F7F9FC] p-3 rounded-md">
                 <span className="font-extrabold text-3xl text-primary_button">
-                  +200
+                  +75
                 </span>
-                <p className="text-xs mt-1">Opportunités partagées</p>
+                <p className="text-xs mt-1">Structures d’accompagnements</p>
+              </div>
+              <div className="bg-[#F7F9FC] p-3 rounded-md">
+                <span className="font-extrabold text-3xl text-primary_button">
+                  +10
+                </span>
+                <p className="text-xs mt-1">
+                  Partenaires techniques et <br /> financiers
+                </p>
               </div>
               <div className="bg-[#F7F9FC] p-3 rounded-md">
                 <span className="font-extrabold text-3xl text-primary_button">
@@ -222,21 +229,15 @@ export default function Accompagnement() {
               </div>
               <div className="bg-[#F7F9FC] p-3 rounded-md">
                 <span className="font-extrabold text-3xl text-primary_button">
-                  +75
+                  +762
                 </span>
-                <p className="text-xs mt-1">Structures d’accompagnement</p>
+                <p className="text-xs mt-1">Opportunités partagées</p>
               </div>
               <div className="bg-[#F7F9FC] p-3 rounded-md">
                 <span className="font-extrabold text-3xl text-primary_button">
-                  +75
+                  +162
                 </span>
-                <p className="text-xs mt-1">Structures d’accompagnement</p>
-              </div>
-              <div className="bg-[#F7F9FC] p-3 rounded-md">
-                <span className="font-extrabold text-3xl text-primary_button">
-                  +75
-                </span>
-                <p className="text-xs mt-1">Structures d’accompagnement</p>
+                <p className="text-xs mt-1">Demandes d’accompagnement</p>
               </div>
             </div>
           </div>
