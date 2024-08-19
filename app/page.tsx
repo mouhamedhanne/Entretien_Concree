@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="">
+      <main className="overflow-hidden">
         <Herotop />
         <Entreprise />
         <Accecibility />

@@ -5,7 +5,198 @@ import { Button } from "./buttons/CTAbutton";
 
 export default function Market() {
   return (
-    <section className="bg-[#F6F6F6] py-16">
+    <section className="bg-[#F6F6F6] py-8 sm:py-16">
+      <Container>
+        <div className="relative w-full px-4 sm:px-0">
+          <div className="flex justify-center">
+            <span className="inline-block relative">
+              <span className="absolute inset-0 bg-gradient-to-r from-[#207280] to-[#3B9054] transform -rotate-3 rounded-[12px] shadow-md"></span>
+              <span className="relative inline-block px-3 py-1 transform -rotate-3 text-white">
+                Boutique d'accompagnement
+              </span>
+            </span>
+          </div>
+          <div className="flex justify-center text-center">
+            <h4 className="font-extrabold text-xl sm:text-[1.6rem] mt-2">
+              Trouvez les offres promues par nos structures
+              <br className="hidden sm:inline" /> dans la boutique
+              d'accompagnement
+            </h4>
+          </div>
+          <Image
+            src="/assets/market.svg"
+            alt="market illustration"
+            width={130}
+            height={50}
+            className="absolute top-0 left-5 sm:left-[5rem] hidden sm:block"
+          />
+        </div>
+
+        <div className="w-full mt-10">
+          <div className="flex flex-col sm:flex-row justify-between items-center mx-4 sm:mx-[4rem]">
+            <h6 className="font-extrabold text-[15px] mb-2 sm:mb-0">
+              Les offres d'accompagnement à la une !
+            </h6>
+            <Link
+              href="/boutique"
+              className="flex justify-center items-center text-primary_button font-bold text-[15px]"
+            >
+              Accéder à la boutique
+              <Image
+                src="/assets/arrow.svg"
+                alt="icon"
+                width={20}
+                height={20}
+                className="ml-2"
+              />
+            </Link>
+          </div>
+
+          <div className="flex flex-col sm:flex-row justify-center sm:space-x-[4rem] space-y-5 sm:space-y-0 mx-4 sm:mx-[3.8rem] mt-6">
+            {/** Card 1 */}
+            <div className="bg-white rounded-b-[12px] w-full sm:w-auto">
+              <div className="relative w-full">
+                <Image
+                  src="/card-hero/hero-1.svg"
+                  alt="Description de l'image"
+                  width={300}
+                  height={96}
+                  objectFit="cover"
+                  className="rounded-t-[12px] w-full"
+                />
+                <span
+                  className="absolute top-2 left-3 bg-gradient-to-r from-[#207280] to-[#3B9054]
+                    py-1 px-2 text-center text-[9px] text-white rounded-[6px]"
+                >
+                  Bon d'accompagnement
+                </span>
+              </div>
+              <div className="px-2 pb-2">
+                <span className="font-bold text-[13px]">
+                  Définir son offre commercial
+                </span>
+                <p className="text-[12px] mb-3 mt-2">
+                  Objectifs : Attirer des clients potentiels.{" "}
+                  <br className="hidden sm:inline" /> Convaincre les clients
+                  d'acheter vos produits <br className="hidden sm:inline" /> ou
+                  services. Fidéliser vos clients existants. A..
+                </p>
+                <div className="mt-auto flex justify-between items-center">
+                  <div className="flex justify-between items-center space-x-1">
+                    <Image
+                      src="/card-hero/logo-concree.svg"
+                      alt="logo concree"
+                      width={30}
+                      height={20}
+                    />
+                    <span className="text-[12px]">Concree SAS</span>
+                  </div>
+                  <Button type="secondary" size="small" className="text-[15px]">
+                    550 000 FCFA
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+            {/** Card 2 */}
+            <div className="bg-white rounded-b-[12px] w-full sm:w-auto">
+              <div className="relative w-full">
+                <Image
+                  src="/card-hero/hero-1.svg"
+                  alt="Description de l'image"
+                  width={300}
+                  height={96}
+                  objectFit="cover"
+                  className="rounded-t-[12px] w-full"
+                />
+                <span
+                  className="absolute top-2 left-3 bg-gradient-to-r from-[#207280] to-[#3B9054]
+                    py-1 px-2 text-center text-[9px] text-white rounded-[6px]"
+                >
+                  Bon d'accompagnement
+                </span>
+              </div>
+              <div className="px-2 pb-2">
+                <span className="font-bold text-[13px]">
+                  Définir son offre commercial
+                </span>
+                <p className="text-[12px] mb-3 mt-2">
+                  Objectifs : Attirer des clients potentiels.{" "}
+                  <br className="hidden sm:inline" /> Convaincre les clients
+                  d'acheter vos produits <br className="hidden sm:inline" /> ou
+                  services. Fidéliser vos clients existants. A..
+                </p>
+                <div className="mt-auto flex justify-between items-center">
+                  <div className="flex justify-between items-center space-x-1">
+                    <Image
+                      src="/card-hero/logo-concree.svg"
+                      alt="logo concree"
+                      width={30}
+                      height={20}
+                    />
+                    <span className="text-[12px]">Concree SAS</span>
+                  </div>
+                  <Button type="secondary" size="small" className="text-[15px]">
+                    550 000 FCFA
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+            {/** Card 3 */}
+            <div className="bg-white rounded-b-[12px] w-full sm:w-auto">
+              <div className="relative w-full">
+                <Image
+                  src="/card-hero/hero-1.svg"
+                  alt="Description de l'image"
+                  width={300}
+                  height={96}
+                  objectFit="cover"
+                  className="rounded-t-[12px] w-full"
+                />
+                <span
+                  className="absolute top-2 left-3 bg-gradient-to-r from-[#207280] to-[#3B9054]
+                    py-1 px-2 text-center text-[9px] text-white rounded-[6px]"
+                >
+                  Bon d'accompagnement
+                </span>
+              </div>
+              <div className="px-2 pb-2">
+                <span className="font-bold text-[13px]">
+                  Définir son offre commercial
+                </span>
+                <p className="text-[12px] mb-3 mt-2">
+                  Objectifs : Attirer des clients potentiels.{" "}
+                  <br className="hidden sm:inline" /> Convaincre les clients
+                  d'acheter vos produits <br className="hidden sm:inline" /> ou
+                  services. Fidéliser vos clients existants. A..
+                </p>
+                <div className="mt-auto flex justify-between items-center">
+                  <div className="flex justify-between items-center space-x-1">
+                    <Image
+                      src="/card-hero/logo-concree.svg"
+                      alt="logo concree"
+                      width={30}
+                      height={20}
+                    />
+                    <span className="text-[12px]">Concree SAS</span>
+                  </div>
+                  <Button type="secondary" size="small" className="text-[15px]">
+                    550 000 FCFA
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Container>
+    </section>
+  );
+}
+
+{
+  /**
+ <section className="bg-[#F6F6F6] py-16">
       <Container>
         <div className="relative w-full">
           <div className="flex justify-center">
@@ -52,7 +243,7 @@ export default function Market() {
           </div>
 
           <div className="flex justify-center space-x-5 mx-[3.8rem] mt-6">
-            {/** Card 1 */}
+     
             <div className="bg-white rounded-b-[12px]">
               <div className="relative w-full">
                 <Image
@@ -98,7 +289,7 @@ export default function Market() {
               </div>
             </div>
 
-            {/** Card 2 */}
+  
             <div className="bg-white rounded-b-[12px]">
               <div className="relative w-full">
                 <Image
@@ -144,7 +335,7 @@ export default function Market() {
               </div>
             </div>
 
-            {/** Card 3 */}
+
             <div className="bg-white rounded-b-[12px]">
               <div className="relative w-full">
                 <Image
@@ -193,5 +384,5 @@ export default function Market() {
         </div>
       </Container>
     </section>
-  );
+   */
 }
