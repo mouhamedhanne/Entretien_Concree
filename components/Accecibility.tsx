@@ -4,7 +4,7 @@ import { Button } from "./buttons/CTAbutton";
 
 export default function Accecibility() {
   return (
-    <section className="bg-[#0958A5]/30 py-20">
+    <section className="bg-[#0958A5]/30 py-10 sm:py-20">
       <Container>
         <div className="flex justify-center">
           <span className="inline-block relative">
@@ -15,16 +15,13 @@ export default function Accecibility() {
           </span>
         </div>
         <div>
-          <h2 className="font-extrabold mt-2 text-3xl text-center">
+          <h2 className="font-extrabold mt-2 text-2xl sm:text-3xl text-center">
             Une <span className="text-primary_button">expérience</span> unique
-            de <br /> l’écosystème entrepreneurial
+            de <br className="hidden sm:inline" /> l'écosystème entrepreneurial
           </h2>
         </div>
-        <div className="w-full px-[8rem]">
-          <div
-            className="bg-white w-full flex justify-center items-center space-x-6 px-2 py-4 mt-8 rounded-[12px] 
-               "
-          >
+        <div className="w-full px-4 sm:px-[8rem]">
+          <div className="bg-white w-full flex flex-col sm:flex-row justify-center items-center sm:space-x-6 space-y-6 sm:space-y-0 px-2 py-4 mt-8 rounded-[12px]">
             <div>
               <Image
                 src="/slider/slide-1.svg"
@@ -33,29 +30,34 @@ export default function Accecibility() {
                 height={150}
               />
             </div>
-            <div>
+            <div className="text-center sm:text-left">
               <h4 className="font-extrabold text-2xl mb-3 text-primary_button">
-                Boutique d’Accompagnement
+                Boutique d'Accompagnement
               </h4>
               <p className="text-[16px] leading-loose mb-4">
-                La Boutique d'Accompagnement de Wekomkom est votre <br />
-                guichet unique pour accéder à une gamme complète de <br />
-                services et de ressources conçus pour propulser votre <br />
+                La Boutique d'Accompagnement de Wekomkom est votre{" "}
+                <br className="hidden sm:inline" />
+                guichet unique pour accéder à une gamme complète de{" "}
+                <br className="hidden sm:inline" />
+                services et de ressources conçus pour propulser votre{" "}
+                <br className="hidden sm:inline" />
                 entreprise.
               </p>
-              <Button
-                type="outline"
-                className="rounded-[2rem] flex items-center"
-              >
-                Boutique
-                <Image
-                  src="/assets/arrow.svg"
-                  alt="illustration"
-                  width={20}
-                  height={20}
-                  className="ml-2"
-                />
-              </Button>
+              <div className="flex justify-center sm:justify-start">
+                <Button
+                  type="outline"
+                  className="rounded-[2rem] flex items-center"
+                >
+                  Boutique
+                  <Image
+                    src="/assets/arrow.svg"
+                    alt="illustration"
+                    width={20}
+                    height={20}
+                    className="ml-2"
+                  />
+                </Button>
+              </div>
             </div>
           </div>
         </div>

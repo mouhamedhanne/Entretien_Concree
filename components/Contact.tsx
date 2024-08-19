@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Container from "./Container";
 
@@ -14,7 +16,7 @@ export default function Contact() {
           </span>
         </div>
         <div>
-          <h2 className="font-extrabold mt-3 text-4xl text-center">
+          <h2 className="font-extrabold mt-3 text-3xl sm:text-4xl text-center">
             Nous répondons à toutes vos <br /> questions !
           </h2>
         </div>
