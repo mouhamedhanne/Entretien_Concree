@@ -12,14 +12,7 @@ import Testimonial from "@/components/Testimonial";
 export default function Home() {
   return (
     <>
-     
-    </>
-  );
-}
-
-      {
-  /**
-   *  <Navbar />
+      <Navbar />
       <main className="overflow-hidden">
         <Herotop />
         <Entreprise />
@@ -31,6 +24,13 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
-      //
+    </>
+  );
+}
+
+      {
+  /**
+   * 
+      
    */
 }
