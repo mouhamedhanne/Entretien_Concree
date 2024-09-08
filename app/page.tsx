@@ -12,7 +12,7 @@ import Testimonial from "@/components/Testimonial";
 export default function Home() {
   return (
     <>
-    <div className="flex justify-center items-center text-5xl">
+    <div className="flex justify-center items-center min-h-screen text-[8rem]">
       🖕
     </div>
     </>
