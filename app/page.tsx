@@ -12,7 +12,9 @@ import Testimonial from "@/components/Testimonial";
 export default function Home() {
   return (
     <>
-    🖕
+    <div className="flex justify-center items-center text-5xl">
+      🖕
+    </div>
     </>
   );
 }
