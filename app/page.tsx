@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
     <div className="flex justify-center items-center min-h-screen text-[8rem]">
-  
+       🖕
     </div>
     </>
   );
@@ -21,7 +21,7 @@ export default function Home() {
 
       {
   /**
-   *     🖕
+   *
        <Navbar />
       <main className="overflow-hidden">
         <Herotop />
